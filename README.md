@@ -1,6 +1,6 @@
 ## Adapter
-![[front.jpeg]]
-![[side.jpeg]]
+![[pics/v1/front.jpeg]]
+![[pics/v1/side.jpeg]]
 ## Printing
 
 
@@ -16,25 +16,25 @@ I used Prusa Galaxy Gray PETG filament for the tablet holder part since this gav
 - hot glue to secure things 🤣
 ### Installation
 Remove the outside screws hidden underneath rubber stoppers. There are 2x small screws in the corners of the "thick" side, 4x large screws in the "bump" part itself and 2x large screws in the palm rest corners.
-![[screws.jpeg]]
+![[pics/screws.jpeg]]
 Pry the bottom case off. **Be careful, use gloves! There are sharp edges inside!** Also, this will require a bit more strength than expected - you will break a few plastic welds (I have not found a way to avoid this.)
 You should be seeing the original PCB controller and connector inside.
-![[original screws.jpeg]]
+![[pics/original screws.jpeg]]
 Remove the black tape from the controller PCB. You will see a LOT of test points. For this mod you need: `VCC_5V`, `GND`, `D+`, and `D-`. Using a soldering iron, connect the respective USB lines to the test points. You can see the location on the scan below. Solder the other side of the cable to your USB-C socket.
 
-![[tp10 testpoints.jpeg]]
+![[pics/tp10 testpoints.jpeg]]
 After soldering, you can test the keyboard by plugging in the cable. Once everything is confirmed working, secure the wires and USB-C socket with hot glue and/or kapton tape. Do it **as soon as possible** - it's easy to lift those pads off the board by accident (if that happens, you can still solder to the traces on the other side, it's just way more difficult). 
-![[hot glue usbc.jpeg]]
+![[pics/hot glue usbc.jpeg]]
 
 Remove the original mounting hardware, including the pogo pins. You should end up with a keyboard looking like this:
-![[original mount removed.jpeg]]
+![[pics/original mount removed.jpeg]]
 
 Insert a nut into one of the holes and screw in the bolt with a washer from the bottom side of the keyboard. The first one may be difficult to keep in, you can use some sticky tape to hold the nut in place. It should be easier once the first one is in place. 
-![[screwing in.jpeg]]
-![[installed with screws.jpeg]]
+![[pics/screwing in.jpeg]]
+![[pics/installed with screws.jpeg]]
 
 The finished product should look like this from the top. You can snap the bottom case back on and reinstall the screws. Slide in your PineNote, plug in the USB-C cable, and hack the planet.
-![[top.jpeg]]
+![[pics/top.jpeg]]
 ## Reverse engineering: pogo pinout
 ```
 1 2 3 4 5
@@ -53,8 +53,8 @@ o o o o|o
 ## Other photos
 
 ### Front side of controller PCB
-![[original pcb plugs front.jpeg]]
+![[pics/original pcb plugs front.jpeg]]
 
 ### Installed "pink" prototype
-![[pink proto.jpeg]]
+![[pics/pink proto.jpeg]]
 
