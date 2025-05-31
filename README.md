@@ -45,7 +45,7 @@ Insert a nut into one of the holes and screw in the bolt with a washer from the 
 ![](pics/installed%20with%20screws.jpeg)
 
 The finished product should look like this from the top. You can snap the bottom case back on and reinstall the screws. Slide in your PineNote, plug in the USB-C cable, and hack the planet.
-![](pics/top.jpeg)
+![](pics/v1/top.jpeg)
 
 ## Reverse engineering: pogo pinout
 ```
